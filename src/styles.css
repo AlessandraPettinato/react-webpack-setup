@@ -1,0 +1,11 @@
+/* Install PostCSS Language Support as Extension, or VS code will give you some syntax errors */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+h1 {
+	color: blue;
+}
