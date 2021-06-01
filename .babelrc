@@ -1,0 +1,4 @@
+//tell Babel what presets we are going to be using
+{
+    "presets" : ["@babel/preset-env", "@babel/preset-react"]
+}
