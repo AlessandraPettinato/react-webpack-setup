@@ -1,7 +1,6 @@
 //Webpack runs in a node environment (not the browser). It contains an object that can be exported and used by the actual webpack library itself.
 
 //To extract Tailwind files and convert them into css
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const path = require("path");
 
@@ -37,16 +36,10 @@ module.exports = {
 				},
 			},
 			{
-				//when we find file which match css extension, use style-loader to create a style tag, css-loader to load css, tailwind-loader to convert it into css
+				//when we find file which match css extension, use style-loader to create a style tag, css-loader to load css to convert it into css
 				test: /\.css$/,
-				use: [MiniCssExtractPlugin.loader, "css-loader"],
+				use: ["css-loader"],
 			},
 		],
 	},
-	plugins: [
-		new MiniCssExtractPlugin({
-			filename: "styles.css",
-			chunkFilename: "styles.css",
-		}),
-	],
 };

@@ -1,7 +1,6 @@
 DEPENDENCIES:
 "react": "^17.0.2",
 "react-dom": "^17.0.2"
-"react-router": "^5.2.0"
 "react-router-dom": "^5.2.0"
 
 DEV-DEPENDENCIES:

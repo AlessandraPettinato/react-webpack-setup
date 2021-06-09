@@ -1,4 +1,6 @@
-//tell Babel what presets we are going to be using
+//tell Babel what presets we are going to be using. 
+
+//Presets are Babel plugins that simply tell Babel what to look out for and transform into plain, vanilla Javascript.
 {
     "presets" : ["@babel/preset-env", "@babel/preset-react"]
 }
