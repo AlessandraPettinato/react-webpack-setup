@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import TestHome from "./TestHome";
-
 export default function TestHeader() {
 	return (
 		<nav>
-			<ul>
+			<ul className="mr-10">
 				<li>
 					<Link to="/">Home</Link>
 				</li>
