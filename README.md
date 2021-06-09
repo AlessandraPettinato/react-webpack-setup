@@ -15,7 +15,6 @@ DEV-DEPENDENCIES:
 "postcss-cli": "^8.3.1",
 "postcss-loader": "^5.3.0",
 "style-loader": "^2.0.0",
-"tailwindcss": "^2.1.2",
 "webpack": "^5.38.1",
 "webpack-cli": "^4.7.0",
 "webpack-dev-server": "^3.11.2"
